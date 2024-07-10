@@ -114,12 +114,12 @@ animes.delete('/:id', async (req, res) => {
   try {
     const deletedAnime = await deleteOneAnime(id);
     if (deletedAnime) {
-      res.status(200).json({ success: true, payload: deletedAnime });
+      res.status(200).json({ message:'Succesfully deleted',success: true  });
     } else {
       res.status(404).json({ message: 'Anime mot found', success: false });
     }
   } catch (error) {
-    res.status(500).json({ success: false, message: 'Mock server error' });
+    res.status(500).json({ message: 'Mock server error' , success: false});
   }
 });
 module.exports = animes;
