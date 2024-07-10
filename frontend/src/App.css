@@ -1,0 +1,54 @@
+html,
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+.App {
+  background-color: #ff9bd2;
+  height: 100%;
+}
+
+.navbar {
+  text-align: center;
+  background-color: #f8f4ec;
+}
+
+.navbar section {
+  border-bottom: solid rgb(173, 173, 173);
+}
+.navbar-sub-section {
+  display: flex;
+  flex-direction: row;
+  /* background-color: red; */
+  text-align: left;
+  /* padding-left: 5px; */
+  height: fit-content;
+}
+
+.navbar-sub-section p {
+  margin-left: 5px;
+  font-size: 8px;
+  font-weight: 200;
+}
+
+.footer-section div h1 {
+  font-size: 15px;
+}
+
+.footer-ul li {
+  /* text-decoration: none; */
+  list-style: none;
+}
+
+.anime-index {
+  height: 500px;
+}
+
+.anime-main {
+  display: flex;
+  flex-direction: row;
+}
+
+
+
